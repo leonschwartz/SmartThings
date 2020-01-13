@@ -1,5 +1,5 @@
 /*
- *  Copyright 2016 SmartThings
+ *  Copyright 2020 Leon Schwartz, based on code Copyright 2016 SmartThings
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy
@@ -17,7 +17,7 @@ import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "SmartSense Multi Sensor (LS)", namespace: "octadox", author: "SmartThings", minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact-2") {
+	definition(name: "SmartSense Multi Sensor (LS)", namespace: "octadox", author: "octadox", minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact-2") {
 
 		capability "Three Axis"
 		capability "Battery"
